@@ -7,7 +7,7 @@ ROBOTICS & EMBEDDED SYSTEMS  //  SOFTWARE & AI  //  MUSIC TECHNOLOGY
 사회적 약자를 위한 로봇·임베디드 시스템을 설계하고 소프트웨어를 개발해왔으며,  
 사운드와 인터랙션을 결합한 뮤직테크놀러지 프로젝트를 진행했습니다.
 
-#### Portfolio : [bell-ha.github.io](https://bell-ha.github.io)
+### Portfolio : [bell-ha.github.io](https://bell-ha.github.io)
 
 ---
 
