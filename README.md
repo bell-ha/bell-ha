@@ -40,7 +40,8 @@ ROBOTICS & EMBEDDED SYSTEMS  //  SOFTWARE & AI  //  MUSIC TECHNOLOGY
 - **[뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** — 학부 학생들이 사용하는 예약·장비 관리 서비스, AWS 운영
 - **[DelRev 3D 스텔스 게임](https://github.com/bell-ha/delrev-game)** — Unity·C# 서바이벌 게임에서 클라이언트 개발과 사운드 디자인 담당 · 캡스톤 장려상 2회
 - **[감정 기반 TTS 보컬 합성](https://bell-ha.github.io/papers/이종하_32203482_실시간표정인식을이용한감정기반TTS보컬합성시스템연구.pdf)** — 실시간 표정 인식으로 감정을 추정해 보컬 합성에 반영한 학사 논문
-- **WGBS 유전체 분석 GUI** — 명령줄 다단계 분석을 비전공자용 GUI로 통합, 서울대·연세대 연구진과 협업
+- **생성형 AI 반도핑 예방교육 시스템** (2026.08~) — 연세대 AI 혁신연구원 프로젝트, 선수 경기력 데이터를 반영한 RAG 파이프라인과 개인화 프롬프트·환각 억제 설계
+- **WGBS 유전체 분석 GUI** — 명령줄 다단계 분석을 GUI로 통합, 서울대·연세대 연구진과 협업
 - **[Kubernetes 클러스터 인프라](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)** — Terraform·Ansible로 CloudStack에 클러스터 구축을 IaC 자동화
 
 **Music Technology**
