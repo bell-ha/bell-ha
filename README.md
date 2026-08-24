@@ -40,12 +40,12 @@ ROBOTICS & EMBEDDED SYSTEMS  //  SOFTWARE & AI  //  MUSIC TECHNOLOGY
 - **[뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** — 학부 학생들이 사용하는 예약·장비 관리 서비스, AWS 운영
 - **[DelRev 3D 스텔스 게임](https://github.com/bell-ha/delrev-game)** — Unity·C# 서바이벌 게임에서 클라이언트 개발과 사운드 디자인 담당 · 캡스톤 장려상 2회
 - **[감정 기반 TTS 보컬 합성](https://bell-ha.github.io/papers/이종하_32203482_실시간표정인식을이용한감정기반TTS보컬합성시스템연구.pdf)** — 실시간 표정 인식으로 감정을 추정해 보컬 합성에 반영한 학사 논문
-- **생성형 AI 반도핑 예방교육 시스템** (2026.08~) — 연세대 AI 혁신연구원 프로젝트, 선수 경기력 데이터를 반영한 RAG 파이프라인과 개인화 프롬프트·환각 억제 설계
+- **생성형 AI 반도핑 예방교육 시스템**  — 연세대 AI 혁신연구원 프로젝트, 선수 경기력 데이터를 반영한 RAG 파이프라인과 개인화 프롬프트·환각 억제 설계(2026.08~)
 - **WGBS 유전체 분석 GUI** — 명령줄 다단계 분석을 GUI로 통합, 서울대·연세대 연구진과 협업
 - **[Kubernetes 클러스터 인프라](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)** — Terraform·Ansible로 CloudStack에 클러스터 구축을 IaC 자동화
 
 **Music Technology**
-- **서울 마장중학교 방과후 지도 강사** — 오케스트라·밴드부 파트별 점검과 합주, 연주회 지도
+- **서울 마장중학교 방과후 지도 강사** — 오케스트라·밴드부 파트별 점검과 합주, 연주회 지도(2026.08)
 - **[국립국악원 음원 규격화](https://qlaudio.co.kr/product/josun-series-platinum-bundle-%EC%A1%B0%EC%84%A0-%EC%8B%9C%EB%A6%AC%EC%A6%88-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98-%EB%B2%88%EB%93%A4-%EA%B5%AD%EC%95%85-%EA%B0%80%EC%83%81%EC%95%85%EA%B8%B0/15/category/46/display/1/)** — 음질 균일화·포맷 표준화 후반 작업, 「조선 시리즈」 국악 가상악기로 출시
 - **[단편영화 「After Session」 음악 제작](https://brunch.co.kr/@3minff/579)** — 작곡·편곡 및 사운드 디자인, 최종 믹싱
 - **[인터랙티브 사운드 & 퍼포먼스](https://www.youtube.com/@%EC%9D%B4%EC%A2%85%ED%95%98-t9u)** — MediaPipe 제스처 인식과 Max/MSP 실시간 사운드 제어
