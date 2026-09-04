@@ -58,7 +58,7 @@
 | [**SEIHI 아티스트 플랫폼**](https://www.seihi.co.kr/)<br><sub>2인 팀 · 백엔드 담당 · 실서비스 운영</sub> | FastAPI + React 풀스택<br>Google OAuth · Email OTP · JWT 3경로 인증 |
 | [**뉴뮤직학부 연습실 예약 시스템**](https://github.com/bell-ha/musicstudio-booking-system)<br><sub>2인 팀 · 백엔드 담당 · 학부생 실사용</sub> | 4중 예약 충돌 검증 (구간 겹침 · 사용자 중복)<br>JWT 인증 · AWS 운영 |
 | **WGBS 유전체 분석 GUI**<br><sub>서울대 · 연세대 연구진 협업</sub> | 명령줄 다단계 분석을 GUI로 통합<br>**특허 준비 중** |
-| [**DelRev**](https://github.com/hitori839/DelRev)<br><sub>4인 14개월 · 최다 기여</sub> | Unity · C# 3D 스텔스 서바이벌 게임<br>클라이언트 개발 및 사운드 디자인 |
+| [**DelRev**](https://github.com/hitori839/DelRev)<br><sub>4인 · </sub> | Unity · C# 3D 스텔스 서바이벌 게임<br>클라이언트 개발 및 사운드 디자인 |
 
 ---
 
