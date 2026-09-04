@@ -37,6 +37,8 @@
 
 **1층에서 5층까지 층간 이동을 end-to-end로 완주**했고(정상 시나리오 1회), ITRC 인재양성대전에서 시연했습니다.
 
+[1층 → 5층 주행 영상](https://www.youtube.com/watch?v=3vwIzmuHD_s) &nbsp;·&nbsp; [ITRC 시연 영상](https://www.youtube.com/watch?v=SAGndz1JyPY)
+
 ### [전동휠체어 자동 주차 시스템](https://github.com/bell-ha/wheelchair-auto-parking-system)
 
 `3인 팀 · 위치추정 / 인식 / 통합` &nbsp;`ITRC 과제` &nbsp;`YOLOv8 · OpenCV · SolvePnP · Kalman Filter · IBVS · Jetson Nano`
@@ -62,6 +64,8 @@ SolvePnP 잔차가 거리와 각도에 따라 체계적으로 편향된다는 �
 로드셀 원신호는 스파이크와 진동 때문에 제어 입력으로 바로 쓸 수 없습니다.
 스파이크 제거 → 중간값 → 이동평균 → 데드존 4단 필터로 다듬고, 센서 스레드와 게임 루프를 분리해
 60 Hz 고정 dt를 유지했습니다. 센서를 Mock / Arduino / 라즈베리파이 3종으로 추상화해 하드웨어 없이도 개발할 수 있게 했습니다.
+
+[데모 영상](https://www.youtube.com/watch?v=_I-ejlEAkNM)
 
 ### [두리 — AI 스마트 순찰 로봇](https://github.com/bell-ha/doori-robot-idea)
 
