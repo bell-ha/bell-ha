@@ -4,6 +4,8 @@
 
 시각장애인 안내 로봇과 전동휠체어 자동 주차를 실제 로봇에서 개발해 왔습니다.
 모듈을 각각 만드는 것보다 합쳤을 때 깨지는 지점을 찾는 일, 그리고 사용자가 실패를 볼 수 없는 환경에서 안전하게 실패하는 방법을 주로 다룹니다.
+3D 스텔스 게임 **DelRev**에서는 플레이어 컨트롤러와 위험게이지 시스템, 스테이지별 몬스터 AI와 사운드를 맡았습니다.
+로봇이든 게임이든 **매 프레임 돌아가는 것을 안정적으로 만드는 일**이라는 점은 같습니다.
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros&logoColor=white)
 ![Nav2](https://img.shields.io/badge/Nav2-AMCL%20%7C%20SLAM-1f6feb)
@@ -11,6 +13,8 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF?logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![Jetson](https://img.shields.io/badge/Jetson%20Nano-76B900?logo=nvidia&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-2022.3-000000?logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 
@@ -68,6 +72,8 @@ Ridge Regression 보정층과 칼만 필터도 붙였습니다.
 카메라·초음파·IMU가 단계마다 번갈아 기준이 되는 9단계 주차 시나리오를 구현했고,
 휠체어에 실을 컴퓨터라는 제약에 맞춰 **Jetson Nano에서 15 FPS 실시간 구동**을 검증했습니다.
 
+[V1 실기체 테스트 영상](https://youtu.be/o30saxUv7JM) — 어안 2뷰로 마커를 추적하고 탑뷰에 위치를 찍는다
+
 시야에 의존하는 정렬과 관측 불가능한 캐스터 휠 상태가 남은 한계라, 다음 버전은 **UWB 측위**를 검토하고 있습니다(조사·장비 구매 단계).
 
 ### [악력 재활 시스템](https://github.com/bell-ha/grip-rehab-system)
@@ -91,6 +97,58 @@ Ridge Regression 보정층과 칼만 필터도 붙였습니다.
 
 <br>
 
+## Game
+
+### [DelRev — 3D 스텔스 서바이벌 게임](https://github.com/hitori839/DelRev)
+
+`4인 팀 · 플레이어 / 위험게이지 / 방해자 AI / 사운드` &nbsp;`2025.03 ~ 2025.11` &nbsp;`Unity 2022.3 · C# · NavMesh · URP`
+
+**플레이어 캐릭터가 가정용 도우미 로봇입니다.** 경쟁사 정보를 빼내기 위해 도우미 로봇으로 위장한 스파이가
+가족주택 · 유치원 · 연구소 · 공장에 들어가 임무를 수행하고, 방해자에게서 도망치는 풀 3D 스텔스 게임입니다.
+로봇에서 다루던 것 — 실시간 상태 관리, 센서 기반 판단, 소리로 상태를 알리는 일 — 을 그대로 게임 안에서 다뤘습니다.
+게임 스크립트 94개 9,862줄 중 **절반 이상을 주 작성**했습니다.
+
+**위험게이지 — 이 게임의 핵심 자원.**
+플레이어가 안전구역 밖에 있으면 게이지가 차오릅니다. 그런데 게이지를 숫자로 보여주는 대신 **소리로 알립니다.**
+틱 간격과 볼륨을 4구간으로 나눠, 위험할수록 심장박동처럼 빨라집니다 — `1.5초 → 0.7 → 0.3 → 0.2초`.
+
+100%에 닿으면 그 스테이지의 최종 방해자만 깨어납니다.
+게이지 로직이 몬스터를 알 필요가 없도록 **인터페이스 하나로 끊었습니다.**
+
+```csharp
+public interface IDangerTarget { void OnDangerGaugeMaxed(); }
+// 구현: Mom(가족주택) · Director(유치원) · Doctor(연구소) · FactoryManager(공장)
+```
+
+**방해자 AI는 상태 집합을 각자 정의했습니다.** 같은 FSM을 돌려쓰지 않았습니다.
+`SecurityGuard`는 CCTV를 확인하는 상태가, `Dog`는 부름을 받는 상태가 따로 있습니다. **상태 이름이 곧 그 몬스터의 성격입니다.**
+
+**사운드 58개를 설계·구현**하고 `CHR · MON · EVT · AMB · BGM · SFX · UI` 접두사로 분류했습니다.
+발소리는 바닥 재질별로 변주를 두고, 이동 속도 3단계에 따라 간격을 바꾸며, **발이 닿는 순간 카메라를 흔듭니다.**
+
+유치원 배경음악은 **동요를 무너뜨리는 방식**으로 만들었습니다.
+같은 동요를 **단2도** 올려 겹치고 주파수를 미세하게 어긋내 불안을 만든 뒤, **증4도** — 가장 불안정한 음정 — 로 다시 겹칩니다.
+그리고 **전부 끊습니다.** 공백 자체가 공포가 됩니다. 컷신과 인트로는 Foley와 디지털 신스를 병행해 직접 제작했습니다.
+
+**씬을 넘어갈 때 아이템이 사라졌습니다.** 맵을 오갈 때마다 씬을 새로 로드하는데,
+Unity는 씬을 언로드하며 그 씬의 오브젝트를 전부 파괴합니다. 원인이 하나가 아니라 네 겹이었습니다.
+
+| | 원인 | 대응 |
+|---|---|---|
+| ① | `DontDestroyOnLoad`는 **루트 오브젝트에만** 걸린다 — 자식에 호출하면 조용히 무시된다 | `SetParent(null)`로 먼저 분리 |
+| ② | 트레일러에 실으면 자식이 되어 다시 걸린다 | 자식으로 넣으면서 그 아이템도 각각 보호 |
+| ③ | 씬 재로드 시 트레일러가 두 개가 된다 | `scene.name`으로 원본 판별 |
+| ④ | 초기화 전 트리거가 발동한다 | `isValid` 플래그로 준비 전 입력 차단 |
+
+못 잡은 버그도 있습니다. `Day`가 0으로 되돌아가는데 원인을 못 찾아, **값이 대입되는 순간의 호출 스택을 찍게 해두고** 추적했습니다.
+잡을 때까지 임시 방어를 두고 **코드에 "응급 패치"라고 적어 두었습니다** — 나중에 정상 로직으로 오해되지 않도록.
+
+**수상** — 2025 RIEF-FESTA 캡스톤 경진대회 G7 부문 장려상(75팀 중 6팀) · 2025 단국대 SW중심대학 캡스톤 페스티벌 장려상(100팀 중 15팀)
+
+[게임플레이 영상](https://youtu.be/M8obEdlshRk) &nbsp;·&nbsp; [스토리 영상 — 사운드 디자인](https://youtu.be/TNu-wWInctg)
+
+<br>
+
 ## Software & AI
 
 | | |
@@ -101,7 +159,6 @@ Ridge Regression 보정층과 칼만 필터도 붙였습니다.
 | [**SEIHI 아티스트 플랫폼**](https://www.seihi.co.kr/)<br><sub>2인 팀 · 백엔드 담당 · 실서비스 운영</sub> | FastAPI + React 풀스택<br>Google OAuth · Email OTP · JWT 3경로 인증 |
 | [**뉴뮤직학부 연습실 예약 시스템**](https://github.com/bell-ha/musicstudio-booking-system)<br><sub>2인 팀 · 백엔드 담당 · 학부생 실사용</sub> | 4중 예약 충돌 검증 (구간 겹침 · 사용자 중복)<br>JWT 인증 · AWS 운영 |
 | **WGBS 유전체 분석 GUI**<br><sub>서울대 · 연세대 연구진 협업</sub> | 명령줄 다단계 분석을 GUI로 통합<br>특허 준비 중 |
-| [**DelRev**](https://github.com/hitori839/DelRev)<br><sub>4인 팀</sub> | Unity · C# 3D 스텔스 서바이벌 게임<br>게임 로직 구현 및 사운드 디자인 |
 
 <br>
 
