@@ -1,201 +1,92 @@
-# Jongha Lee
+# 이종하 (Jongha Lee)
 
-**사람 곁에서 움직이는 로봇의 소프트웨어를 만듭니다.**
+**사용자가 무엇을 원하는지 파악하고, 끝까지 흔들리지 않게 만듭니다.**
 
-시각장애인 안내 로봇과 전동휠체어 자동 주차를 실제 로봇에서 개발해 왔습니다.
-모듈을 각각 만드는 것보다 합쳤을 때 깨지는 지점을 찾는 일, 그리고 사용자가 실패를 볼 수 없는 환경에서 안전하게 실패하는 방법을 주로 다룹니다.
-3D 스텔스 게임 **DelRev**에서는 플레이어 컨트롤러와 위험게이지 시스템, 스테이지별 몬스터 AI와 사운드를 맡았습니다.
-로봇이든 게임이든 **매 프레임 돌아가는 것을 안정적으로 만드는 일**이라는 점은 같습니다.
+시각장애인 안내 로봇과 전동휠체어 자동 주차를 실기체에서 개발했고,<br>
+3D 잠입 액션 게임 DelRev에서 플레이어 시스템과 사운드를 맡았습니다.<br>
+쓰는 사람이 화면을 볼 수 없는 조건에서 상태를 어떻게 전할지를 주로 다뤘습니다.
 
-![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros&logoColor=white)
-![Nav2](https://img.shields.io/badge/Nav2-AMCL%20%7C%20SLAM-1f6feb)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF?logo=yolo&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![Jetson](https://img.shields.io/badge/Jetson%20Nano-76B900?logo=nvidia&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-2022.3-000000?logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=c-sharp&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+**[Portfolio](https://bell-ha.github.io/)** · [Resume](https://bell-ha.github.io/resume.html) · [YouTube](https://www.youtube.com/@%EC%9D%B4%EC%A2%85%ED%95%98-t9u) · jongha8273@gmail.com<br>
+단국대학교 뉴뮤직과 · 컴퓨터공학 복수전공 · 배리어프리 ICT기술 연구센터(ITRC) 학부연구생
 
-[bell-ha.github.io](https://bell-ha.github.io) &nbsp;·&nbsp; jongha8273@gmail.com
+---
 
-단국대학교 배리어프리 ICT기술 연구센터(ITRC) 학부연구생 &nbsp;`2025.12 ~ `
-정부지원 연구센터 과제로 시각장애인 안내 로봇과 전동휠체어 자동 주차 시스템을 개발하고 있습니다.
+## Tech Stack
 
-<br>
+**Languages**
 
-## Robotics
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-### [시각장애인 실내 안내 로봇](https://github.com/bell-ha/visually-impaired-navigation-robot)
+**Robotics & Embedded**
 
-`단독 개발` &nbsp;`ITRC 과제` &nbsp;`ROS2 Humble · Nav2 · AMCL · LiDAR · RealSense`
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white) ![Nav2](https://img.shields.io/badge/Nav2-1F6FEB?style=flat) ![SLAM](https://img.shields.io/badge/SLAM-1F6FEB?style=flat) ![LiDAR](https://img.shields.io/badge/LiDAR-1F6FEB?style=flat) ![RealSense](https://img.shields.io/badge/RealSense-0071C5?style=flat&logo=intel&logoColor=white) ![Jetson Nano](https://img.shields.io/badge/Jetson_Nano-76B900?style=flat&logo=nvidia&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
 
-다층 이동을 하는 로봇은 이미 있고, 시각장애인을 안내하는 로봇도 이미 있습니다.
-그런데 **둘이 만나는 지점이 비어 있습니다** — 기존 안내 로봇들은 사용자를 버튼 앞까지 데려가고 조작은 사용자에게 맡깁니다.
-버튼을 못 보는 사람에게 그것은 문제를 옮긴 것이지 푼 것이 아닙니다.
+**AI & Vision**
 
-상용 플랫폼(Hello Robot Stretch SE3) 위에 엘리베이터 자율 탑승을 얹었습니다.
-로봇–엘리베이터 연동은 제조사·제작 연도마다 제어 방식이 달라 표준 API가 없어, 규격에 기대지 않고 그리퍼 카메라로 버튼을 직접 인식해 누릅니다.
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat&logo=yolo&logoColor=black) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat&logo=google&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-412991?style=flat&logo=openai&logoColor=white)
 
-정답지를 걷어내도 아래쪽 버튼이 눌리지 않았는데, **원인은 인식이 아니라 기구학**이었습니다.
-팔이 좌우로 움직이지 못해 닿는 위치가 전후 0.387~0.887 m 선분 하나로 고정되고,
-얼마나 베이스를 옮길지 계산하려면 버튼의 3D 좌표가 필요합니다.
-사진과 카메라 파라미터만으로 좌표를 복원해 **독립 3측정이 4.8 mm 안에서 일치**하는 것을 확인했습니다.
+**Game**
 
-사용자가 로봇의 실패를 볼 수 없다는 점이 이 프로젝트의 가장 큰 제약이었습니다.
-음성 명령 해석에는 LLM을 쓰되 실제 이동을 확정하는 것은 사용자가 누르는 물리 버튼으로 두었고,
-겉으로 드러나지 않는 실패 **27건**을 목록으로 만들어 안전 항목부터 해결하고 있습니다.
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white) ![NavMesh](https://img.shields.io/badge/NavMesh-3E7BBF?style=flat) ![URP](https://img.shields.io/badge/URP-222C37?style=flat)
 
-**1층에서 5층까지 층간 이동을 end-to-end로 완주**했고(정상 시나리오 1회), ITRC 인재양성대전에서 시연했습니다.
-다만 호출 버튼의 상행·하행 중 하나만 인식돼 내려오는 시나리오는 아직 돌지 못하고, 반복 성공률도 측정 전입니다.
+**Backend & Infra**
 
-[1층 → 5층 주행 영상](https://www.youtube.com/watch?v=3vwIzmuHD_s) &nbsp;·&nbsp; [ITRC 시연 영상](https://www.youtube.com/watch?v=SAGndz1JyPY)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
-### [전동휠체어 자동 주차 시스템](https://github.com/bell-ha/wheelchair-auto-parking-system)
+**Music & Interactive**
 
-`3인 팀 · 위치추정 / 인식 / 통합` &nbsp;`ITRC 과제` &nbsp;`YOLOv8 · OpenCV · SolvePnP · Kalman Filter · IBVS · Jetson Nano`
+![Logic Pro X](https://img.shields.io/badge/Logic_Pro_X-000000?style=flat&logo=apple&logoColor=white) ![Max/MSP](https://img.shields.io/badge/Max%2FMSP-525252?style=flat) ![Cubase](https://img.shields.io/badge/Cubase-CF0F1B?style=flat) ![TouchDesigner](https://img.shields.io/badge/TouchDesigner-1D1D1D?style=flat)
 
-전동휠체어 사용자가 차에 탄 뒤, 남겨진 휠체어를 타인의 도움 없이 트렁크까지 수납하는 시스템입니다.
+---
 
-차량에 이미 달린 어라운드뷰를 쓰면 휠체어에 아무것도 붙이지 않아도 됩니다. 범용성 원칙에 가장 충실한 선택이었고,
-8단계 파이프라인 중 7단계가 실기체에서 동작했습니다. SolvePnP 잔차가 거리·각도에 따라 체계적으로 편향된다는 것을 확인해
-Ridge Regression 보정층과 칼만 필터도 붙였습니다.
+## Projects
 
-**막힌 곳은 튜닝이 아니었습니다.** 어라운드뷰는 차량 바로 주변을 보라고 달린 장치인데 휠체어는 그 밖에서 출발합니다.
-멀어질수록 마커가 작아지고 렌즈 주변부로 밀려나, 캘리브레이션으로 메울 수 없는 구간이 남았습니다.
-보정은 왜곡을 펴는 것이지 찍히지 않은 곳을 보이게 하지 못합니다.
-그래서 카메라를 움직이는 쪽에 실었습니다. 대상까지의 거리가 항상 가까우면 이 문제 자체가 생기지 않습니다.
-
-이후 사이드미러·번호판·후미등을 포함한 차량 부위 6종을 직접 촬영·라벨링해 학습시키고(**mAP50 최대 0.995**),
-번호판 실측 규격(335 × 155 mm)과 핀홀 모델로 단안 카메라만으로 거리·yaw·bearing을 추정했습니다.
-카메라·초음파·IMU가 단계마다 번갈아 기준이 되는 9단계 주차 시나리오를 구현했고,
-휠체어에 실을 컴퓨터라는 제약에 맞춰 **Jetson Nano에서 15 FPS 실시간 구동**을 검증했습니다.
-
-[V1 실기체 테스트 영상](https://youtu.be/o30saxUv7JM) — 어안 2뷰로 마커를 추적하고 탑뷰에 위치를 찍는다
-
-시야에 의존하는 정렬과 관측 불가능한 캐스터 휠 상태가 남은 한계라, 다음 버전은 **UWB 측위**를 검토하고 있습니다(조사·장비 구매 단계).
-
-### [악력 재활 시스템](https://github.com/bell-ha/grip-rehab-system)
-
-`2인 팀` &nbsp;`HX711 · Arduino · Python · 3D Printing`
-
-악력을 회복해야 하는 환자를 위한 재활 훈련 시스템입니다. 반복 훈련이 지루해 지속률이 낮다는 점에서 출발해,
-양손 악력을 게임과 소리로 되돌려주도록 설계했습니다.
-
-로드셀 원신호는 스파이크와 진동 때문에 제어 입력으로 바로 쓸 수 없습니다.
-스파이크 제거 → 중간값 → 이동평균 → 데드존 4단 필터로 다듬고, 센서 스레드와 게임 루프를 분리해
-60 Hz 고정 dt를 유지했습니다. 센서를 Mock / Arduino / 라즈베리파이 3종으로 추상화해 하드웨어 없이도 개발할 수 있게 했습니다.
-
-[데모 영상](https://www.youtube.com/watch?v=_I-ejlEAkNM)
-
-### [두리 — AI 스마트 순찰 로봇](https://github.com/bell-ha/doori-robot-idea)
-
-`SDGs 아이디어 공모전 대상`
-
-포트홀과 파손된 점자블록을 탐지하는 순찰 로봇 제안. 3D 모델링과 Unity 시뮬레이션으로 실현 가능성을 검증했습니다.
-
-<br>
-
-## Game
-
-### [DelRev — 3D 스텔스 서바이벌 게임](https://github.com/hitori839/DelRev)
-
-`4인 팀 · 플레이어 / 위험게이지 / 방해자 AI / 사운드` &nbsp;`2025.03 ~ 2025.11` &nbsp;`Unity 2022.3 · C# · NavMesh · URP`
-
-**플레이어 캐릭터가 가정용 도우미 로봇입니다.** 경쟁사 정보를 빼내기 위해 도우미 로봇으로 위장한 스파이가
-가족주택 · 유치원 · 연구소 · 공장에 들어가 임무를 수행하고, 방해자에게서 도망치는 풀 3D 스텔스 게임입니다.
-로봇에서 다루던 것 — 실시간 상태 관리, 센서 기반 판단, 소리로 상태를 알리는 일 — 을 그대로 게임 안에서 다뤘습니다.
-게임 스크립트 94개 9,862줄 중 **절반 이상을 주 작성**했습니다.
-
-**위험게이지 — 이 게임의 핵심 자원.**
-플레이어가 안전구역 밖에 있으면 게이지가 차오릅니다. 그런데 게이지를 숫자로 보여주는 대신 **소리로 알립니다.**
-틱 간격과 볼륨을 4구간으로 나눠, 위험할수록 심장박동처럼 빨라집니다 — `1.5초 → 0.7 → 0.3 → 0.2초`.
-
-100%에 닿으면 그 스테이지의 최종 방해자만 깨어납니다.
-게이지 로직이 몬스터를 알 필요가 없도록 **인터페이스 하나로 끊었습니다.**
-
-```csharp
-public interface IDangerTarget { void OnDangerGaugeMaxed(); }
-// 구현: Mom(가족주택) · Director(유치원) · Doctor(연구소) · FactoryManager(공장)
-```
-
-**방해자 AI는 상태 집합을 각자 정의했습니다.** 같은 FSM을 돌려쓰지 않았습니다.
-`SecurityGuard`는 CCTV를 확인하는 상태가, `Dog`는 부름을 받는 상태가 따로 있습니다. **상태 이름이 곧 그 몬스터의 성격입니다.**
-
-**사운드 58개를 설계·구현**하고 `CHR · MON · EVT · AMB · BGM · SFX · UI` 접두사로 분류했습니다.
-발소리는 바닥 재질별로 변주를 두고, 이동 속도 3단계에 따라 간격을 바꾸며, **발이 닿는 순간 카메라를 흔듭니다.**
-
-유치원 배경음악은 **동요를 무너뜨리는 방식**으로 만들었습니다.
-같은 동요를 **단2도** 올려 겹치고 주파수를 미세하게 어긋내 불안을 만든 뒤, **증4도** — 가장 불안정한 음정 — 로 다시 겹칩니다.
-그리고 **전부 끊습니다.** 공백 자체가 공포가 됩니다. 컷신과 인트로는 Foley와 디지털 신스를 병행해 직접 제작했습니다.
-
-**씬을 넘어갈 때 아이템이 사라졌습니다.** 맵을 오갈 때마다 씬을 새로 로드하는데,
-Unity는 씬을 언로드하며 그 씬의 오브젝트를 전부 파괴합니다. 원인이 하나가 아니라 네 겹이었습니다.
-
-| | 원인 | 대응 |
-|---|---|---|
-| ① | `DontDestroyOnLoad`는 **루트 오브젝트에만** 걸린다 — 자식에 호출하면 조용히 무시된다 | `SetParent(null)`로 먼저 분리 |
-| ② | 트레일러에 실으면 자식이 되어 다시 걸린다 | 자식으로 넣으면서 그 아이템도 각각 보호 |
-| ③ | 씬 재로드 시 트레일러가 두 개가 된다 | `scene.name`으로 원본 판별 |
-| ④ | 초기화 전 트리거가 발동한다 | `isValid` 플래그로 준비 전 입력 차단 |
-
-못 잡은 버그도 있습니다. `Day`가 0으로 되돌아가는데 원인을 못 찾아, **값이 대입되는 순간의 호출 스택을 찍게 해두고** 추적했습니다.
-잡을 때까지 임시 방어를 두고 **코드에 "응급 패치"라고 적어 두었습니다** — 나중에 정상 로직으로 오해되지 않도록.
-
-**수상** — 2025 RIEF-FESTA 캡스톤 경진대회 G7 부문 장려상(75팀 중 6팀) · 2025 단국대 SW중심대학 캡스톤 페스티벌 장려상(100팀 중 15팀)
-
-[게임플레이 영상](https://youtu.be/M8obEdlshRk) &nbsp;·&nbsp; [스토리 영상 — 사운드 디자인](https://youtu.be/TNu-wWInctg)
-
-<br>
-
-## Software & AI
+### Robotics & Embedded
 
 | | |
 |---|---|
-| **생성형 AI 반도핑 예방교육 시스템**<br><sub>연세대 AI 혁신연구원 · 2026.08 ~ </sub> | RAG 파이프라인 구축<br>개인화 프롬프트 · 환각 억제 설계 |
-| [**Carbon-Aware Scheduler**](https://github.com/HyeonJeong-S/carbon-aware-scheduler)<br><sub>4인 팀 · 로드밸런서(ILP) 담당</sub> | LSTM 예측 + ILP 최적화 + SimPy 시뮬레이션<br>8개 리전 1년치 실측으로 탄소 **−56.9%** 검증 |
-| [**Kubernetes 클러스터 인프라**](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)<br><sub>단독</sub> | Terraform · Ansible로 CloudStack에 K8s v1.30 클러스터 구축<br>GitLab · Jenkins CI/CD 파이프라인 |
-| [**SEIHI 아티스트 플랫폼**](https://www.seihi.co.kr/)<br><sub>2인 팀 · 백엔드 담당 · 실서비스 운영</sub> | FastAPI + React 풀스택<br>Google OAuth · Email OTP · JWT 3경로 인증 |
-| [**뉴뮤직학부 연습실 예약 시스템**](https://github.com/bell-ha/musicstudio-booking-system)<br><sub>2인 팀 · 백엔드 담당 · 학부생 실사용</sub> | 4중 예약 충돌 검증 (구간 겹침 · 사용자 중복)<br>JWT 인증 · AWS 운영 |
-| **WGBS 유전체 분석 GUI**<br><sub>서울대 · 연세대 연구진 협업</sub> | 명령줄 다단계 분석을 GUI로 통합<br>특허 준비 중 |
+| **[시각장애인 실내 안내 로봇](https://github.com/bell-ha/visually-impaired-navigation-robot)** | Hello Robot Stretch SE3 기반 실내 자율 안내 로봇. 그리퍼 카메라로 엘리베이터 버튼을 직접 인식해 누르고 1층에서 5층까지 이동. |
+| **[전동휠체어 자동 주차 시스템](https://github.com/bell-ha/wheelchair-auto-parking-system)** | 카메라를 휠체어에 실어 차량 부위 6종을 인식하고 스스로 수납. YOLOv8 재학습, 단안 거리 추정, Jetson Nano 실시간 구동. |
+| **[악력 재활 훈련 시스템](https://github.com/bell-ha/grip-rehab-system)** | HX711 로드셀 + Arduino 기반 양손 악력 측정. 신호 처리 파이프라인, 재활 게임 4종, 실시간 신디사이저. |
+| **[두리 — AI 스마트 순찰 로봇](https://github.com/bell-ha/doori-robot-idea)**<br>*2025 지능형 로봇 SDGs 아이디어 공모전 대상* | 포트홀·점자블록 파손을 실시간 감지하는 자율 순찰 로봇 제안. YOLOv8 탐지, ROS2 + SLAM, Unity 시뮬레이션. |
 
-<br>
-
-## Music Technology
+### Game
 
 | | |
 |---|---|
-| [**국립국악원 음원 규격화**](https://qlaudio.co.kr/product/josun-series-platinum-bundle-%EC%A1%B0%EC%84%A0-%EC%8B%9C%EB%A6%AC%EC%A6%88-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98-%EB%B2%88%EB%93%A4-%EA%B5%AD%EC%95%85-%EA%B0%80%EC%83%81%EC%95%85%EA%B8%B0/15/category/46/display/1/) | 음질 균일화 · 포맷 표준화 후반 작업<br>「조선 시리즈」 국악 가상악기 **36종** 상용 출시 |
-| [**감정 기반 TTS 보컬 합성**](https://bell-ha.github.io/papers/이종하_32203482_실시간표정인식을이용한감정기반TTS보컬합성시스템연구.pdf) | 실시간 표정 인식으로 감정을 추정해 보컬 합성에 반영<br>학사 졸업논문 |
-| [**단편영화 「After Session」 음악**](https://brunch.co.kr/@3minff/579) | 장면 분석 기반 음악 구성<br>작곡 · 편곡 · 최종 믹싱 납품 |
-| [**인터랙티브 사운드 & 퍼포먼스**](https://www.youtube.com/@%EC%9D%B4%EC%A2%85%ED%95%98-t9u) | MediaPipe 제스처 인식 + Max/MSP 실시간 사운드 제어<br>Unity · TouchDesigner 메타버스 입체음향 |
-| **서울 마장중학교 밴드부 지도강사** | 피아노 · 베이스 · 일렉기타 · 드럼 · 보컬 5개 파트 지도 및 합주<br>2026.08 ~ |
+| **[DelRev — 3D 잠입 액션 게임](https://github.com/hitori839/DelRev)**<br>*캡스톤 경진대회 장려상 2회* | Unity 2022(URP) + C# 게임. 플레이어 시스템, 위험 게이지, 방해자 AI, 사운드 58개 담당. |
 
-<br>
+### Software & AI
 
-## Skills
+| | |
+|---|---|
+| **생성형 AI 반도핑 예방교육 시스템** | 연세대 AI 혁신연구원 프로젝트. RAG 파이프라인, 개인화 프롬프트, 환각 억제 설계. |
+| **[Carbon-Aware Scheduler](https://github.com/HyeonJeong-S/carbon-aware-scheduler)** | LSTM 예측과 ILP 최적화로 데이터센터 탄소 56.9% 절감. SimPy 시뮬레이션으로 8개 리전 1년치 실측 검증. |
+| **[Cloud-Native Kubernetes Cluster Infrastructure](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)** | CloudStack에 Terraform + Ansible로 k8s 클러스터를 IaC 자동화. Calico·MetalLB, GitLab·Jenkins 배포. |
+| **[아티스트 홍보 플랫폼 SEIHI](https://github.com/bell-ha/artist-promotion-platform)** | FastAPI + React 18/TypeScript 풀스택 웹 서비스. Google OAuth·이메일 OTP 인증, Cloudinary 업로드. |
+| **[단국대학교 뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** | 학부 학생들이 실제로 사용하는 예약·장비 관리 서비스. JWT 인증, 중복 예약 방지, AWS EC2 운영. |
+| **WGBS 유전체 분석 자동화 데스크톱 프로그램** | 서울대·연세대 연구진과 협업. 명령줄 다단계 분석을 비전공자도 쓸 수 있는 GUI로 통합. 특허 준비 중. |
+| **실시간 표정 인식 기반 감정 TTS 보컬 합성 시스템**<br>[논문 PDF](https://bell-ha.github.io/papers/이종하_32203482_실시간표정인식을이용한감정기반TTS보컬합성시스템연구.pdf) | 표정으로 감정을 추정해 보컬 합성에 실시간 반영하는 시스템을 설계·구현한 학사학위 논문. |
 
-**Robotics** &nbsp; `ROS2 Humble` `Nav2` `AMCL` `SLAM` `LiDAR` `RealSense` `센서퓨전` `IMU` `CAN` `Jetson Nano` `Arduino` `3D Printing`
+### Music Technology
 
-**Vision & AI** &nbsp; `YOLOv8` `OpenCV` `SolvePnP` `Kalman Filter` `IBVS` `MediaPipe` `TensorFlow` `GPT-4o Vision` `RAG`
+| | |
+|---|---|
+| **게임 사운드팩 — 여섯 장르** | 캐주얼 시뮬레이션 · 카드 전략 · FPS/배틀로얄 · 다크 판타지 RPG · 캐주얼 퍼즐 · 액션 격투 사운드팩 제작. |
+| **국립국악원 국악 음원 규격화 및 아카이빙**<br>[조선 시리즈](https://qlaudio.co.kr/product/josun-series-platinum-bundle-%EC%A1%B0%EC%84%A0-%EC%8B%9C%EB%A6%AC%EC%A6%88-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98-%EB%B2%88%EB%93%A4-%EA%B5%AD%EC%95%85-%EA%B0%80%EC%83%81%EC%95%85%EA%B8%B0/15/category/46/display/1/) | 음질 균일화·포맷 표준화 후반 작업. 국립국악원 × Qlaudio 협업 음원은 36종 국악 가상악기로 출시. |
+| **단편영화 「After Session」 음악 제작**<br>[정보](https://brunch.co.kr/@3minff/579) | 권혁준 감독 작품의 작곡·편곡 및 사운드 디자인, 최종 믹싱. |
+| **인터랙티브 사운드 & 퍼포먼스 작업**<br>[YouTube](https://www.youtube.com/@%EC%9D%B4%EC%A2%85%ED%95%98-t9u) | MediaPipe 제스처 인식, Max/MSP 실시간 사운드 제어, Unity 공간 음향. |
+| **서울 마장중학교 방과후 지도강사** | 오케스트라·밴드부 파트별 점검과 합주 지도, 연주회 무대 준비. |
 
-**Languages** &nbsp; `Python` `C#` `TypeScript`
-
-**Backend & Infra** &nbsp; `FastAPI` `React` `PostgreSQL` `Docker` `Kubernetes` `Terraform` `AWS`
-
-**Music** &nbsp; `Max/MSP` `Logic Pro X` `Cubase` `Unity` `TouchDesigner`
-
-<br>
+---
 
 ## Education & Awards
 
-단국대학교 뉴뮤직과 뮤직테크놀러지 전공, 컴퓨터공학 복수전공
+**단국대학교** 뉴뮤직과 뮤직테크놀러지 · 컴퓨터공학 복수전공 (2020.03 ~ 2027.02 졸업예정)<br>
+전공 학점 4.35 / 4.5 · 평점 평균 4.22 / 4.5 · 교육부 예술체육비전 장학생
 
-전공 4.35 / 4.5 &nbsp;·&nbsp; 평점 4.22 / 4.5 &nbsp;·&nbsp; 교육부 예술체육비전 장학생
-
-| | | |
-|---|---|---|
-| 2026.01 | 지능형 로봇 분야 SDGs 아이디어 공모전 **대상** | 산업통상자원부 · KIAT · 단국대 공학교육혁신센터 |
-| 2025.12 | 2025학년도 캡스톤디자인 경진대회 G7부문 장려상 | 단국G-RISE사업단 · 75팀 중 6팀 |
-| 2025.12 | 단국대학교 SW중심대학 캡스톤 페스티벌 장려상 | SW중심대학사업단 · 100팀 중 15팀 |
+| | |
+|---|---|
+| 2026.01 | 지능형 로봇 분야 SDGs 아이디어 공모전 **대상** |
+| 2025.12 | 캡스톤디자인 경진대회 G7부문 장려상 · 75팀 중 6팀 |
+| 2025.12 | SW중심대학 캡스톤 페스티벌 장려상 · 100팀 중 15팀 |
