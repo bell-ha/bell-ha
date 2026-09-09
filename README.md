@@ -49,14 +49,14 @@
 |---|---|
 | **[시각장애인 실내 안내 로봇](https://github.com/bell-ha/visually-impaired-navigation-robot)** | Hello Robot Stretch SE3 기반 실내 자율 안내 로봇. 그리퍼 카메라로 엘리베이터 버튼을 직접 인식해 누르고 1층에서 5층까지 이동. |
 | **[전동휠체어 자동 주차 시스템](https://github.com/bell-ha/wheelchair-auto-parking-system)** | 카메라를 휠체어에 실어 차량 부위 6종을 인식하고 스스로 수납. YOLOv8 재학습, 단안 거리 추정, Jetson Nano 실시간 구동. |
-| **[악력 재활 훈련 시스템](https://github.com/bell-ha/grip-rehab-system)** | HX711 로드셀 + Arduino 기반 양손 악력 측정. 신호 처리 파이프라인, 재활 게임 4종, 실시간 신디사이저. |
+| **[악력 재활 훈련 시스템](https://github.com/bell-ha/grip-rehab-system)** | HX711 로드셀 + Arduino 기반 양손 악력 측정. 신호 처리 파이프라인, 재활 게임 3종, 실시간 신디사이저. |
 | **[두리 — AI 스마트 순찰 로봇](https://github.com/bell-ha/doori-robot-idea)**<br>*2025 지능형 로봇 SDGs 아이디어 공모전 대상* | 포트홀·점자블록 파손을 실시간 감지하는 자율 순찰 로봇 제안. YOLOv8 탐지, ROS2 + SLAM, Unity 시뮬레이션. |
 
 ### Game
 
 | | |
 |---|---|
-| **[DelRev — 3D 잠입 액션 게임](https://github.com/hitori839/DelRev)**<br>*캡스톤 경진대회 장려상 2회* | Unity 2022(URP) + C# 게임. 플레이어 시스템, 위험 게이지, 방해자 AI, 사운드 58개 담당. |
+| **[DelRev — 3D 잠입 액션 게임](https://github.com/hitori839/DelRev)**<br>*캡스톤 경진대회 장려상 2회* | Unity 2022(URP) + C# 게임. 플레이어 시스템, 위험 게이지, 방해자 AI, 사운드 57개 담당. |
 
 ### Software & AI
 
@@ -66,7 +66,7 @@
 | **[Carbon-Aware Scheduler](https://github.com/HyeonJeong-S/carbon-aware-scheduler)** | LSTM 예측과 ILP 최적화로 데이터센터 탄소 56.9% 절감. SimPy 시뮬레이션으로 8개 리전 1년치 실측 검증. |
 | **[Cloud-Native Kubernetes Cluster Infrastructure](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)** | CloudStack에 Terraform + Ansible로 k8s 클러스터를 IaC 자동화. Calico·MetalLB, GitLab·Jenkins 배포. |
 | **[아티스트 홍보 플랫폼 SEIHI](https://github.com/bell-ha/artist-promotion-platform)** | FastAPI + React 18/TypeScript 풀스택 웹 서비스. Google OAuth·이메일 OTP 인증, Cloudinary 업로드. |
-| **[단국대학교 뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** | 학부 학생들이 실제로 사용하는 예약·장비 관리 서비스. JWT 인증, 중복 예약 방지, AWS EC2 운영. |
+| **[단국대학교 뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** | 학부 학생들이 실제로 사용하는 예약·장비 관리 서비스. JWT 인증, 중복 예약 방지, Docker 배포. |
 | **WGBS 유전체 분석 자동화 데스크톱 프로그램** | 서울대·연세대 연구진과 협업. 명령줄 다단계 분석을 비전공자도 쓸 수 있는 GUI로 통합. 특허 준비 중. |
 | **실시간 표정 인식 기반 감정 TTS 보컬 합성 시스템**<br>[논문 PDF](https://bell-ha.github.io/papers/이종하_32203482_실시간표정인식을이용한감정기반TTS보컬합성시스템연구.pdf) | 표정으로 감정을 추정해 보컬 합성에 실시간 반영하는 시스템을 설계·구현한 학사학위 논문. |
 
