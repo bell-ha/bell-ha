@@ -63,7 +63,7 @@
 | | |
 |---|---|
 | **생성형 AI 반도핑 예방교육 시스템** | 연세대 AI 혁신연구원 프로젝트. RAG 파이프라인, 개인화 프롬프트, 환각 억제 설계. |
-| **[Carbon-Aware Scheduler](https://github.com/HyeonJeong-S/carbon-aware-scheduler)** | LSTM 예측과 ILP 최적화로 데이터센터 탄소 56.9% 절감. SimPy 시뮬레이션으로 8개 리전 1년치 실측 검증. |
+| **[Carbon-Aware Scheduler](https://github.com/HyeonJeong-S/carbon-aware-scheduler)** | 4인 팀에서 ILP 로드밸런서(공간 이동) 담당. LSTM 예측과 ILP 최적화로 데이터센터 탄소 56.9% 절감. SimPy 시뮬레이션으로 8개 리전 1년치 실측 검증. |
 | **[Cloud-Native Kubernetes Cluster Infrastructure](https://github.com/bell-ha/kubernetes-cloudstack-infrastructure)** | CloudStack에 Terraform + Ansible로 k8s 클러스터를 IaC 자동화. Calico·MetalLB, GitLab·Jenkins 배포. |
 | **[아티스트 홍보 플랫폼 SEIHI](https://github.com/bell-ha/artist-promotion-platform)** | FastAPI + React 18/TypeScript 풀스택 웹 서비스. Google OAuth·이메일 OTP 인증, Cloudinary 업로드. |
 | **[단국대학교 뉴뮤직학부 연습실 예약 시스템](https://github.com/bell-ha/musicstudio-booking-system)** | 학부 학생들이 실제로 사용하는 예약·장비 관리 서비스. JWT 인증, 중복 예약 방지, Docker 배포. |
