@@ -29,7 +29,7 @@
 
 **Game**
 
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white) ![NavMesh](https://img.shields.io/badge/NavMesh-3E7BBF?style=flat) ![URP](https://img.shields.io/badge/URP-222C37?style=flat)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white) ![NavMesh](https://img.shields.io/badge/NavMesh-3E7BBF?style=flat) ![Animator](https://img.shields.io/badge/Animator-3E7BBF?style=flat)
 
 **Backend & Infra**
 
