@@ -21,7 +21,7 @@
 
 **Robotics & Embedded**
 
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white) ![Nav2](https://img.shields.io/badge/Nav2-1F6FEB?style=flat) ![SLAM](https://img.shields.io/badge/SLAM-1F6FEB?style=flat) ![LiDAR](https://img.shields.io/badge/LiDAR-1F6FEB?style=flat) ![RealSense](https://img.shields.io/badge/RealSense-0071C5?style=flat&logo=intel&logoColor=white) ![Jetson Nano](https://img.shields.io/badge/Jetson_Nano-76B900?style=flat&logo=nvidia&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white) ![Nav2](https://img.shields.io/badge/Nav2-1F6FEB?style=flat) ![SLAM](https://img.shields.io/badge/SLAM-1F6FEB?style=flat) ![LiDAR](https://img.shields.io/badge/LiDAR-1F6FEB?style=flat) ![RealSense](https://img.shields.io/badge/RealSense-0071C5?style=flat&logo=intel&logoColor=white) ![Jetson Nano](https://img.shields.io/badge/Jetson_Nano-76B900?style=flat&logo=nvidia&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white) ![Autodesk Fusion](https://img.shields.io/badge/Autodesk_Fusion-F57C00?style=flat&logo=autodesk&logoColor=white) ![Bambu Lab](https://img.shields.io/badge/Bambu_Lab_X1C-00AE42?style=flat&logo=bambulab&logoColor=white)
 
 **AI & Vision**
 
