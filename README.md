@@ -84,11 +84,11 @@ jongha8273@gmail.com · jongha8273@naver.com
 ## Experience
 
 <table width="100%">
-<tr><th align="left" width="38%">소속</th><th align="left" width="16%">역할</th><th align="left" width="14%">기간</th><th align="left" width="32%">담당 업무<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/.spacer.png" width="840" height="1" alt=""></th></tr>
-<tr><td><b>단국대학교 배리어프리 ICT기술 연구센터(ITRC)</b></td><td>학부연구생</td><td>2025.12 ~</td><td><sub>로봇 소프트웨어 개발 · 영상인식 연구</sub></td></tr>
-<tr><td><b>연세대학교 체육교육학과 운동생리학연구실</b></td><td>연구보조원</td><td>2026.09 ~</td><td><sub>생성형 AI 기반 교육 시스템 · WGBS 분석 파이프라인 개발</sub></td></tr>
-<tr><td><b>서울 마장중학교</b></td><td>방과후 지도 강사</td><td>2026.08 ~</td><td><sub>오케스트라 · 밴드부 지도</sub></td></tr>
-<tr><td><b>QLAUDIO</b></td><td>프리랜서</td><td>2024</td><td><sub>게임 사운드팩 제작 및 오디오 규격 정의</sub></td></tr>
+<tr><th align="left">소속</th><th align="left">역할</th><th align="left">기간</th><th align="left">담당 업무<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/.spacer.png" width="840" height="1" alt=""></th></tr>
+<tr><td><b>단국대학교 배리어프리 ICT기술 연구센터(ITRC)</b></td><td>학부연구생</td><td>2025.12 ~</td><td>로봇 소프트웨어 개발 · 영상인식 연구</td></tr>
+<tr><td><b>연세대학교 체육교육학과 운동생리학연구실</b></td><td>연구보조원</td><td>2026.09 ~</td><td>생성형 AI 기반 교육 시스템 · WGBS 분석 파이프라인 개발</td></tr>
+<tr><td><b>서울 마장중학교</b></td><td>방과후 지도 강사</td><td>2026.08 ~</td><td>오케스트라 · 밴드부 지도</td></tr>
+<tr><td><b>QLAUDIO</b></td><td>프리랜서</td><td>2024</td><td>게임 사운드팩 제작 및 오디오 규격 정의</td></tr>
 </table>
 
 ---
