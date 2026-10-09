@@ -78,37 +78,3 @@ jongha8273@gmail.com · jongha8273@naver.com
 <tr><td><b>인터랙티브 사운드 · 퍼포먼스 작업</b> &nbsp;·&nbsp; 2024<br><sub>Max/MSP와 MediaPipe로 제스처에 반응하는 사운드 제어, Unity·TouchDesigner 공간 음향 연동</sub><br><code>Max/MSP · MediaPipe · TouchDesigner</code></td></tr>
 <tr><td><b>권혁준 감독 단편영화 「After Session」 음악 제작</b> &nbsp;·&nbsp; 2023<br><sub>장면 분석 기반 음악 구성, 작곡·편곡 및 최종 믹싱 납품</sub><br><code>Logic Pro X</code></td></tr>
 </table>
-
----
-
-## Experience
-
-<table width="100%">
-<tr><th align="left">소속<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="300" height="1" alt=""></th><th align="left">역할<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="110" height="1" alt=""></th><th align="left">기간<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="100" height="1" alt=""></th><th align="left">담당 업무<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="330" height="1" alt=""></th></tr>
-<tr><td><b>단국대학교 배리어프리 ICT기술 연구센터(ITRC)</b></td><td>학부연구생</td><td>2025.12 ~</td><td>로봇 소프트웨어 개발 · 영상인식 연구</td></tr>
-<tr><td><b>연세대학교 체육교육학과 운동생리학연구실</b></td><td>연구보조원</td><td>2026.09 ~</td><td>생성형 AI 기반 교육 시스템 · WGBS 분석 파이프라인 개발</td></tr>
-<tr><td><b>서울 마장중학교</b></td><td>방과후 지도 강사</td><td>2026.08 ~</td><td>오케스트라 · 밴드부 지도</td></tr>
-<tr><td><b>QLAUDIO</b></td><td>프리랜서</td><td>2024</td><td>게임 사운드팩 제작 및 오디오 규격 정의</td></tr>
-</table>
-
----
-
-## Awards
-
-<table width="100%">
-<tr><th align="left" width="14%">날짜</th><th align="left" width="56%">수상</th><th align="left" width="30%">수여<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="840" height="1" alt=""></th></tr>
-<tr><td>2026.01.16</td><td><b>2025 지능형 로봇분야 SDGs 아이디어 공모전 대상</b><br><sub>팀 두리 · 스마트 안전 순찰 로봇 (2인)</sub></td><td>단국대학교 공과대학장</td></tr>
-<tr><td>2025.12.05</td><td><b>2025학년도 캡스톤디자인 경진대회 G7부문 장려상</b><br><sub>75팀 중 6팀</sub></td><td>단국대학교 단국G-RISE사업단장</td></tr>
-<tr><td>2025.12.05</td><td><b>2025년 SW중심대학사업단 캡스톤 페스티벌 장려상</b><br><sub>100팀 중 15팀</sub></td><td>SW중심대학사업단장</td></tr>
-</table>
-
----
-
-## Certifications
-
-<table width="100%">
-<tr><th align="left" width="14%">날짜</th><th align="left" width="56%">자격</th><th align="left" width="30%">발급<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="840" height="1" alt=""></th></tr>
-<tr><td>2026.10.08</td><td>TOEIC Speaking IH</td><td></td></tr>
-<tr><td>2026.09.11</td><td>정보처리기사</td><td>한국산업인력공단</td></tr>
-<tr><td>2026.06.05</td><td>데이터분석 준전문가(ADsP)</td><td>한국데이터산업진흥원</td></tr>
-</table>
