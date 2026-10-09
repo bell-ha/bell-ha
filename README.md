@@ -18,7 +18,7 @@ jongha8273@gmail.com · jongha8273@naver.com
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
 
 **Robotics & Embedded**
 
@@ -34,7 +34,7 @@ jongha8273@gmail.com · jongha8273@naver.com
 
 **Backend & Infra**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
 **Music & Interactive**
 
@@ -56,13 +56,13 @@ jongha8273@gmail.com · jongha8273@naver.com
 
 <table width="100%">
 <tr><th align="left">Software &amp; AI<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="840" height="1" alt=""></th></tr>
-<tr><td><b><a href="https://github.com/bell-ha/artist-promotion-platform">아티스트 홍보 웹사이트</a></b> &nbsp;·&nbsp; 2025.12 ~ 2026.09<br><sub>스키마를 Alembic으로 이관하고, 템플릿 중복을 서비스 계층으로 정리</sub><br><sub>2인 팀 · 백엔드</sub><br><code>FastAPI · React · PostgreSQL · Alembic</code></td></tr>
-<tr><td><b><a href="https://github.com/bell-ha/musicstudio-booking-system">뉴뮤직학부 연습실 예약 시스템</a></b> &nbsp;·&nbsp; 2025.03 ~ 2026.09<br><sub>가변 길이 예약의 동시성을 advisory lock으로 해결</sub><br><sub>2인 팀 · 백엔드 · 학부생 실사용</sub><br><code>FastAPI · PostgreSQL · Docker · JWT</code></td></tr>
+<tr><td><b><a href="https://github.com/bell-ha/artist-promotion-platform">아티스트 홍보 웹사이트</a></b> &nbsp;·&nbsp; 2025.12 ~ 2026.05<br><sub>스키마를 Alembic으로 이관하고, 템플릿 중복을 서비스 계층으로 정리</sub><br><sub>2인 팀 · 백엔드</sub><br><code>FastAPI · React · PostgreSQL · Alembic</code></td></tr>
+<tr><td><b><a href="https://github.com/bell-ha/musicstudio-booking-system">마디(Madi) — 음악학원·연습실 운영 플랫폼</a></b> &nbsp;·&nbsp; 2025.03 ~<br><sub>여러 학원·학교가 각자 공간을 만들어 연습실 예약과 학원 관리를 골라 쓰는 운영 플랫폼</sub><br><sub>단국대학교 뉴뮤직학부 연습실 예약 시스템에서 출발 · 2인 팀 백엔드로 시작해 Spring으로 재개발 중</sub><br><code>Java · Spring Boot · PostgreSQL · Testcontainers</code></td></tr>
 <tr><td><b>WGBS 유전체 분석 자동화 프로그램</b> &nbsp;·&nbsp; 2026.07 ~ 2026.08<br><sub>R 분석 절차를 코드 없이 실행하도록 GUI로 묶고, GUI·콘솔이 같은 백엔드를 호출하게 설계</sub><br><code>Python · Tkinter · R</code></td></tr>
 <tr><td><b><a href="https://github.com/bell-ha/kubernetes-cloudstack-infrastructure">Kubernetes 클러스터 인프라 구축</a></b> &nbsp;·&nbsp; 2025.09 ~ 2025.12<br><sub>CloudStack에 Terraform·Ansible로 3노드 클러스터 구축, 공인 IP 하나를 포트 규약으로 분리</sub><br><sub>단독</sub><br><code>Kubernetes · Terraform · Ansible · Calico · MetalLB</code></td></tr>
 <tr><td><b><a href="https://github.com/HyeonJeong-S/carbon-aware-scheduler">CAST — 탄소 인식 클라우드 스케줄러</a></b> &nbsp;·&nbsp; 2026.07 ~<br><sub>작업을 탄소 배출이 적은 리전으로 배정하는 스케줄러</sub><br><sub>4인 팀 · 리전 배정 로드밸런서 담당</sub><br><code>Python · PuLP/CBC · SimPy · LSTM</code></td></tr>
 <tr><td><b><a href="https://github.com/bell-ha/onwork-groupware">OnWork 그룹웨어</a></b> &nbsp;·&nbsp; 2026.05 ~ 2026.09<br><sub>결재자가 부재면 대행자에게 자동 배정되는 휴가 모듈 설계</sub><br><sub>4인 팀</sub><br><code>SW아키텍처 설계 · ADR</code></td></tr>
-<tr><td><b>생성형 AI 기반 맞춤형 반도핑 예방교육 시스템</b> &nbsp;·&nbsp; 2026.09 ~<br><sub>예방교육 자료로만 답하는 RAG 파이프라인 구축, 판단이 필요한 질문은 전문가 상담으로 연결</sub><br><sub>연세대 과제</sub><br><code>LLM · RAG · Python</code></td></tr>
+<tr><td><b>생성형 AI 기반 맞춤형 반도핑 예방교육 시스템</b> &nbsp;·&nbsp; 2026.09 ~<br><sub>근거 문서를 인용하지 않은 답은 서버가 걸러내고, 약물 판정은 출처가 붙은 조회표로 내리는 구조</sub><br><sub>연세대 운동생리학연구실 연구보조원 · 논문용 연구 프로토타입</sub><br><code>FastAPI · React · LLM API · BM25 RAG</code></td></tr>
 <tr><td><b>감정 기반 TTS 보컬 합성 연구</b> &nbsp;·&nbsp; 2025.06 ~ 2025.12<br><sub>실시간 표정 인식으로 감정을 추정해 음성 합성에 반영. EMA와 다수결로 안정화</sub><br><sub>학사학위 논문</sub><br><code>MediaPipe · CNN · TensorFlow</code></td></tr>
 </table>
 
@@ -108,6 +108,7 @@ jongha8273@gmail.com · jongha8273@naver.com
 
 <table width="100%">
 <tr><th align="left" width="14%">날짜</th><th align="left" width="56%">자격</th><th align="left" width="30%">발급<img src="https://raw.githubusercontent.com/bell-ha/bell-ha/main/spacer.png" width="840" height="1" alt=""></th></tr>
+<tr><td>2026.10.08</td><td>TOEIC Speaking IH</td><td></td></tr>
 <tr><td>2026.09.11</td><td>정보처리기사</td><td>한국산업인력공단</td></tr>
 <tr><td>2026.06.05</td><td>데이터분석 준전문가(ADsP)</td><td>한국데이터산업진흥원</td></tr>
 </table>
