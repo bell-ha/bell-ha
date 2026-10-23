@@ -2,7 +2,7 @@
 
 # 이종하 (Jongha Lee)
 
-소프트웨어 개발자 · ROS2 · Unity · 컴퓨터비전 · 시스템 통합
+Software Engineer | ROS2, Computer Vision, Spring Boot
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-1f6feb?style=for-the-badge)](https://bell-ha.github.io/)
 [![Resume](https://img.shields.io/badge/Resume-24292f?style=for-the-badge)](https://bell-ha.github.io/resume.html)
