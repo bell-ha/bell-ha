@@ -6,7 +6,6 @@ Software Engineer | ROS2, Computer Vision, Spring Boot
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-1f6feb?style=for-the-badge)](https://bell-ha.github.io/)
 [![Resume](https://img.shields.io/badge/Resume-24292f?style=for-the-badge)](https://bell-ha.github.io/resume.html)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@%EC%9D%B4%EC%A2%85%ED%95%98-t9u)
 
 jongha8273@gmail.com · jongha8273@naver.com
 
